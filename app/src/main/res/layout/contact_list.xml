@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@android:drawable/stat_sys_phone_call"
+        android:layout_gravity="right" />
+
+    <TextView
+
+        android:id="@+id/tvName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="abc aa" />
+
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="002302" />
+
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Male" />
+
+</LinearLayout>
